@@ -20,7 +20,7 @@ This project implements a hardware-based image processing system in Verilog that
 
 ### Basic Workflow
 
-1. Place your input image as `input.png` (will be resized to 128×128)
+1. Place an input image as `input.png` (will be resized to 128×128)
 2. Run the full processing pipeline:
 ```bash
 make
@@ -39,13 +39,3 @@ make convert   # Generate output PNGs
 make view      # Open waveforms (GTKWave)
 make clean     # Remove generated files
 ```
-
-## Requirements
-
-- Python with Pillow library
-
-- Icarus Verilog (iverilog)
-
-- GTKWave (optional for waveform viewing)
-
-- Make (for build automation)
